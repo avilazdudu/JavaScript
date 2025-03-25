@@ -1,18 +1,49 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 body{
     display: flex;
+    height: 100vh;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
-#box{
-    width: 300px;
-    height: 300px;
-    background-color: black;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+#lamp{
+    margin-left: 6rem;
+    margin-bottom: 2.5rem;
+}
+.off{
+    display: block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    box-shadow: 2px 2px 15px 7px black;
+}
+.on {
+    display: block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    box-shadow: 2px 2px 15px 7px yellow;
+}
+.interrupt {
+    display: block;
+    float: left;
+    width: 100px;
+    height: 50px;
+    border-radius: 5%;
+    border: none;
+    font-size: larger;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    background-color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+#turnOn{
+    border: 2px solid green;
+}
+#turnOff{
+    border: 2px solid red;
 }
