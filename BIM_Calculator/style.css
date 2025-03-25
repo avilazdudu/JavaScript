@@ -10,11 +10,69 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #e2e2ae;
+}
+#outlineBox{
+    width: 470px;
+    height: 500px;
+    background: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    
 }
 #box{
     width: 400px;
     height: 400px;
-    background: #f1f1f1;
+    background-color: #fff;
+    display: flex;
+
+}
+.textInput{
+    display: block;
+    float: left;
+    margin: 10px 0px 0px 20px;
+    font-size: 1.5rem;
+}
+input {
+    display: block;
+    float: left;
+    width: 85%;
+    height: 50px;
+    margin: 10px 0px 0px 20px;
+    padding-left: 15px;
+    border: 1px solid black;
     border-radius: 10px;
-    box-shadow: 2px 2px 17px 10px rgba(0, 0, 0, 0.8);
+}
+input:focus{
+    outline: none;
+}
+#box div h1{
+    margin: 20px 0px 0px 20px;
+}
+button{
+    display: block;
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 89.5%;
+    height: 50px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+button:hover{
+    background-color: #e7bb08;
+    cursor: pointer;
+}
+#result{
+    display: block;
+    float: left;
+}
+#classification{
+    display: block;
+    float: left;
 }
