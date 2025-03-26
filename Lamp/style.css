@@ -26,7 +26,7 @@ body{
     box-shadow: 2px 2px 15px 7px black;
 }
 #lamp{
-    background-color: thistle;
+    background-color: transparent;
     display: block;
     float: left;
     margin-left: 84px;
@@ -41,14 +41,14 @@ img {
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    box-shadow: 0px 0px 15px 10px black;
+    box-shadow: 0px 0px 15px 8px black;
 }
 .on {
     display: block;
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    box-shadow: 0px 0px 15px 10px yellow;
+    box-shadow: 0px 0px 15px 18px goldenrod;
 }
 .interrupt {
     display: block;
