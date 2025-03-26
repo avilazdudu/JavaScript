@@ -7,7 +7,7 @@ const type = document.getElementById('type');
 
 btnCalculate.addEventListener('click', () => {
   const bmi = weight.value / Math.pow(height.value, 2);
-  result.innerHTML = `Your BMI is ${bmi.toFixed(2)}`;
+  result.innerHTML = 'Your BMI is ' + bmi.toFixed(2);
   if(bmi < 18.5){
     type.innerHTML = 'You are Underweight';
   }else if(bmi >= 18.5 && bmi <= 24.9){
@@ -20,5 +20,9 @@ btnCalculate.addEventListener('click', () => {
     type.innerHTML = 'You are Obesity II';
   }else if(bmi >= 40){
     type.innerHTML = 'You are Obesity III';
-  }
-})
+  };
+});
+
+
+
+
