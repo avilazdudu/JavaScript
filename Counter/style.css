@@ -9,6 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: sandybrown;
 }
 
 /* rem = 16px 2rem = 32px 0.5rem = 8px */
