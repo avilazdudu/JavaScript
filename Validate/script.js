@@ -5,10 +5,15 @@ btnValidar.addEventListener('click', function() {
     let conteudo = "<ul>";
     let notaFinal = "";
     let classe = ""; 
+    
+    if (quantidade <= 0) {
+        alert("Digite um número maior que zero!");
+        return;
+    }
 
     for (let contador = 1; contador <= quantidade; contador++){
         let nota = Math.random()*10;
-        nota.toFixed(1)
+        nota = nota.toFixed(1)
         notaFinal =(nota >= media) ? "Aprovado" : "Reprovado";
         classe = (nota >= media) ? "aprovado" : "reprovado"; 
 
