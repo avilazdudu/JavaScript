@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aluno {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+.aprovado {
+    color: green;
+}
+.reprovado {
+    color: red;
+}
